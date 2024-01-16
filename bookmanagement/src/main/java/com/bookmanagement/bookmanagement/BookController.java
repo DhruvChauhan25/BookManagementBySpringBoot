@@ -9,34 +9,34 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/users")
-public class UserController {
-    Logger logger= LoggerFactory.getLogger(UserController.class);
+@RequestMapping("/books")
+public class BookController {
+    Logger logger= LoggerFactory.getLogger(BookController.class);
 
     @Autowired
-    private UserService userService;
+    private BookService bookService;
 
     @GetMapping
-    public List<User> getAllUsers() {
+    public List<Book> getAllBooks() {
         logger.debug("Listing all the Users");
-        return userService.getAllUsers();
+        return bookService.getAllBooks();
     }
 
     @GetMapping("/{id}")
-    public Optional<User> getUserById(@PathVariable Long id) {
+    public Optional<Book> getBookById(@PathVariable Long id) {
         logger.debug("Getting all the users By id");
-        return userService.getUserById(id);
+        return bookService.getBookById(id);
     }
 
     @PostMapping
-    public User saveUser(@RequestBody User user) {
+    public Book saveBook(@RequestBody Book book) {
         logger.debug("Showing all the Users");
-        return userService.saveUser(user);
+        return bookService.saveBook(book);
     }
 
     @DeleteMapping("/{id}")
     public void deleteUser(@PathVariable Long id) {
         logger.debug("Deleting up the users by id");
-        userService.deleteUser(id);
+        bookService.deleteBook(id);
     }
 }
