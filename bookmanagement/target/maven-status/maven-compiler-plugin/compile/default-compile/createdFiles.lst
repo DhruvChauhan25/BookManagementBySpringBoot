@@ -1,5 +1,0 @@
-com\bookmanagement\bookmanagement\Book.class
-com\bookmanagement\bookmanagement\Controller\BookController.class
-com\bookmanagement\bookmanagement\Service\BookService.class
-com\bookmanagement\bookmanagement\Repository\BookRepository.class
-com\bookmanagement\bookmanagement\BookDTO.class
