@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Update_at_19-01-2024_16_23_[Changes]1" date="1705661684321" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19-01-2024_16_23_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 19-01-2024 16:23 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class" />
+    <option name="AFTER_PATH" value="bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19-01-2024_16_23_[Changes]1/BookController.class" />
+  </binary>
+</changelist>
