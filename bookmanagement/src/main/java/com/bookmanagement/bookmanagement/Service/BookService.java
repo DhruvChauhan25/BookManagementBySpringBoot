@@ -6,6 +6,7 @@ import com.bookmanagement.bookmanagement.Repository.BookRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,6 +20,9 @@ public class BookService {
     @Autowired
     private BookRepository bookRepository;
 
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
     public List<BookDTO> getAllBooks() {
         logger.debug("Showing all up the users");
         List<Book> books = bookRepository.findAll();
@@ -28,7 +32,7 @@ public class BookService {
     }
 
     public Optional<BookDTO> getBookById(Long id) {
-        logger.debug("Finding all the user");
+        logger.debug("Finding all the  user");
         return bookRepository.findById(Math.toIntExact(id))
                 .map(BookDTO::fromEntity);
     }
@@ -38,6 +42,7 @@ public class BookService {
         Book book = bookRepository.save(BookDTO.toEntity(bookDTO));
         return BookDTO.fromEntity(book);
     }
+
 
     public void deleteBook(Long id) {
         logger.debug("Deleting up the users");

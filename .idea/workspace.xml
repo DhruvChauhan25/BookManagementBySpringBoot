@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a58951a-2840-4a8b-8e58-069d926fa07e" name="Changes" comment="commit changes">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/logs/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/logs/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/BookmanagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/BookmanagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2azJ5BADJXlTdGFDJMcsdtKXOzP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.BookmanagementApplicationTests.executor": "Coverage",
+    "JUnit.BookmanagementApplicationTests.testAddNew.executor": "Run",
+    "JUnit.BookmanagementApplicationTests.testDelete.executor": "Run",
+    "JUnit.BookmanagementApplicationTests.testGet.executor": "Run",
+    "JUnit.BookmanagementApplicationTests.testListAll.executor": "Run",
+    "JUnit.BookmanagementApplicationTests.testUpdate.executor": "Run",
+    "Maven.bookmanagement [spring-boot:run].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/KumarDhr/Downloads/bookmanagement",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bookmanagement.bookmanagement.Controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bookmanagement.bookmanagement" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn spring-boot:run" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BookmanagementApplicationTests">
+    <configuration name="BookmanagementApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookmanagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.Security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookmanagementApplicationTests.testAddNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookmanagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.Security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplicationTests" />
+      <option name="METHOD_NAME" value="testAddNew" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookmanagementApplicationTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookmanagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplicationTests" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookmanagementApplicationTests.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookmanagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.Security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplicationTests" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookmanagementApplicationTests.testListAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookmanagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.Security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplicationTests" />
+      <option name="METHOD_NAME" value="testListAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookmanagementApplicationTests" />
+        <item itemvalue="JUnit.BookmanagementApplicationTests.testDelete" />
+        <item itemvalue="JUnit.BookmanagementApplicationTests.testListAll" />
+        <item itemvalue="JUnit.BookmanagementApplicationTests.testAddNew" />
+        <item itemvalue="JUnit.BookmanagementApplicationTests.testGet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a58951a-2840-4a8b-8e58-069d926fa07e" name="Changes" comment="" />
+      <created>1705315288750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705315288750</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1705386533833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705386533833</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1705388023874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705388023874</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1705388611924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705388611924</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1705408984260</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705408984262</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1705409118003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705409118003</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1705491806839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705491806839</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1705491963790</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705491963790</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit changes" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bookmanagement$BookmanagementApplicationTests.ic" NAME="BookmanagementApplicationTests Coverage Results" MODIFIED="1705661222081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bookmanagement.bookmanagement.Security.*</FILTER>
+    </SUITE>
+  </component>
+</project>

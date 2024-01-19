@@ -3,6 +3,7 @@ package com.bookmanagement.bookmanagement.Controller;
 import com.bookmanagement.bookmanagement.BookDTO;
 import com.bookmanagement.bookmanagement.Service.BookService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +17,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/books")
+@SecurityRequirement(name="Bearer-key")
 @Tag(name = "Book Details", description = "Endpoints for managing book details")
 public class BookController {
     Logger logger = LoggerFactory.getLogger(BookController.class);
@@ -55,6 +57,8 @@ public class BookController {
         BookDTO savedBook = bookService.saveBook(bookDTO);
         return new ResponseEntity<>(savedBook, HttpStatus.CREATED);
     }
+
+
 
     @DeleteMapping("/{id}")
     @Operation(summary = "Delete a book", description = "Delete a book by its ID", tags = {"Book Details"})
