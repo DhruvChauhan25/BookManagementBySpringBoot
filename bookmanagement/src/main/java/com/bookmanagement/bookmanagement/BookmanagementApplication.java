@@ -19,30 +19,6 @@ public class BookmanagementApplication {
 		SpringApplication.run(BookmanagementApplication.class, args);
 	}
 
-
-
-
-
-//	@Configuration
-//	public class SwaggerConfig {
-//
-//		@Bean
-//		public OpenApiCustomizer openApiCustomizer() {
-//			return openApi -> openApi.info(
-//							new Info()
-//									.title("Department API")
-//									.version("1.0")
-//									.description("Documentation for Department API"))
-//					.components(new Components()
-//							.addSecuritySchemes("bearer-key", new SecurityScheme()
-//									.type(SecurityScheme.Type.HTTP)
-//									.scheme("bearer")
-//									.bearerFormat("JWT")))
-//					.addSecurityItem(new SecurityRequirement().addList("bearer-key"));
-//		}
-//	}
-
-
 	@Configuration
 	@SecurityScheme(
 			name = "Bearer-key",

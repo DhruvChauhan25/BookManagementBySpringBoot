@@ -6,7 +6,6 @@ import com.bookmanagement.bookmanagement.Repository.BookRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,9 +18,6 @@ public class BookService {
 
     @Autowired
     private BookRepository bookRepository;
-
-    @Autowired
-    private PasswordEncoder passwordEncoder;
 
     public List<BookDTO> getAllBooks() {
         logger.debug("Showing all up the users");
