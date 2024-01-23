@@ -10415,7 +10415,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field bookDetailsService in com.bookmanagement.bookmanagement.Security.JwtAuthenticationFilter required a single bean, but 3 were found:
+Field bookDetailsService in com.bookmanagement.bookmanagement.Authentication.JwtAuthenticationFilter required a single bean, but 3 were found:
 	- customUserDetailsService: defined in file [C:\Users\KumarDhr\Downloads\bookmanagement\bookmanagement\target\classes\com\bookmanagement\bookmanagement\CustomUserDetailsService.class]
 	- bookDetailService: defined by method 'bookDetailService' in class path resource [com/bookmanagement/bookmanagement/config/BookConfig.class]
 	- userDetailsService: defined by method 'userDetailsService' in class path resource [com/bookmanagement/bookmanagement/config/SecurityConfig.class]
@@ -23199,7 +23199,7 @@ Unconditional classes:
 2024-01-19 23:50:27 [http-nio-8080-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
 2024-01-19 23:50:27 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/books/new", parameters={}
 2024-01-19 23:50:27 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.bookmanagement.bookmanagement.Controller.BookController#getBookById(Long)
-2024-01-19 23:50:27 [http-nio-8080-exec-5] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.bookmanagement.bookmanagement.BookDTO> com.bookmanagement.bookmanagement.Controller.BookController.getBookById(java.lang.Long): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "new"
+2024-01-19 23:50:27 [http-nio-8080-exec-5] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.bookmanagement.bookmanagement.EntityDto.BookDTO> com.bookmanagement.bookmanagement.Controller.BookController.getBookById(java.lang.Long): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "new"
 2024-01-19 23:50:27 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "new"]
 2024-01-19 23:50:27 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
 2024-01-19 23:50:36 [http-nio-8080-exec-6] INFO  o.s.web.filter.OncePerRequestFilter -  Header :  null

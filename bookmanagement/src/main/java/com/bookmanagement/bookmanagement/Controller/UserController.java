@@ -1,9 +1,9 @@
 package com.bookmanagement.bookmanagement.Controller;
 
-import com.bookmanagement.bookmanagement.Security.AuthRequest;
-import com.bookmanagement.bookmanagement.Security.JwtService;
+import com.bookmanagement.bookmanagement.Authentication.AuthRequest;
+import com.bookmanagement.bookmanagement.Service.JwtService;
 import com.bookmanagement.bookmanagement.Service.UserService;
-import com.bookmanagement.bookmanagement.UserInfo;
+import com.bookmanagement.bookmanagement.Entity.UserInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

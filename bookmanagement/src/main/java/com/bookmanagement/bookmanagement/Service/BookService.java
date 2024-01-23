@@ -1,7 +1,7 @@
 package com.bookmanagement.bookmanagement.Service;
 
-import com.bookmanagement.bookmanagement.Book;
-import com.bookmanagement.bookmanagement.BookDTO;
+import com.bookmanagement.bookmanagement.Entity.Book;
+import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
 import com.bookmanagement.bookmanagement.Repository.BookRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

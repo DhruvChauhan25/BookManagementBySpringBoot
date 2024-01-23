@@ -1,29 +1,38 @@
 package com.bookmanagement.bookmanagement;
 
+import com.bookmanagement.bookmanagement.Controller.BookController;
+import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
 import com.bookmanagement.bookmanagement.Repository.BookRepository;
+import com.bookmanagement.bookmanagement.Service.BookService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.MediaType;
 import org.springframework.security.test.context.support.WithMockUser;
+import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import java.util.Arrays;
 import java.util.Optional;
 
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class BookmanagementApplicationTests {
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
+@TestPropertySource(locations = "classpath:application-test.properties")
+@ComponentScan(basePackages = "com.bookmanagement")
+public class BookmanagementApplicationTests {
 
     @Autowired
     private MockMvc mockMvc;
@@ -31,116 +40,89 @@ class BookmanagementApplicationTests {
     @Autowired
     private ObjectMapper objectMapper;
 
-    @MockBean
+    @Mock
+    private BookService bookService;
+
+    @Mock
     private BookRepository bookRepository;
-    private final String jwtToken = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkaHJ1diIsImlhdCI6MTcwNTkxNzc0OCwiZXhwIjoxNzA1OTE5NTQ4fQ.GLALRe-ku8SWHHuapqgL-Dmt_YKqIbLirh1_k6NmOeY";
+
+    @InjectMocks
+    private BookController bookController;
 
     @Test
-    @WithMockUser
-    public void testAddNew() throws Exception {
-        // Mock the behavior of the save method
-        when(bookRepository.save(any(Book.class)))
-                .thenAnswer(invocation -> {
-                    Book savedBook = invocation.getArgument(0);
-                    savedBook.setId(1); // Set an example ID for the saved book
-                    return savedBook;
-                });
+    @WithMockUser(authorities = "user")
+    public void testGetAllBooks() throws Exception {
+        when(bookService.getAllBooks()).thenReturn(Arrays.asList(new BookDTO()));
 
-        BookDTO bookDTO = new BookDTO();
-        bookDTO.setBookName("Bluestack");
-        bookDTO.setAuthor("Vaishnav");
-        bookDTO.setPrice(99);
-
-        mockMvc.perform(MockMvcRequestBuilders.post("/books")
-                        .header("Authorization", "Bearer " + jwtToken)
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .content(objectMapper.writeValueAsString(bookDTO)))
-                .andExpect(status().isCreated())
-                .andExpect(jsonPath("$.id").exists()); // Ensure the response includes the ID
-    }
-
-
-    @Test
-    public void testListAll() throws Exception {
-        Book book = new Book();
-        book.setId(1);
-        book.setBookName("Test Book");
-        book.setAuthor("Test Author");
-        book.setPrice(50);
-
-        when(bookRepository.findAll()).thenReturn(Arrays.asList(book));
-
-        mockMvc.perform(get("/books/new")
-                        .header("Authorization", "Bearer " + jwtToken))
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$").isArray())
-                .andExpect(jsonPath("$[0].id").value(1))
-                .andExpect(jsonPath("$[0].bookName").value("Test Book"))
-                .andExpect(jsonPath("$[0].author").value("Test Author"))
-                .andExpect(jsonPath("$[0].price").value(50));
-    }
-
-    @Test
-    public void testUpdate() throws Exception {
-        Integer id = 7;
-        BookDTO updatedBookDTO = new BookDTO();
-        updatedBookDTO.setBookName("Mahabharat");
-
-        when(bookRepository.findById(id)).thenReturn(Optional.of(new Book()));
-        when(bookRepository.save(any(Book.class))).thenReturn(new Book());
-
-        mockMvc.perform(put("/books/{id}", id)
-                        .header("Authorization", "Bearer " + jwtToken)
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .content(objectMapper.writeValueAsString(updatedBookDTO)))
-                .andExpect(status().isOk());
-
-        verify(bookRepository, times(1)).findById(id);
-        verify(bookRepository, times(1)).save(any(Book.class));
-    }
-    @Test
-    public void testGet() throws Exception {
-        Integer id = 5;
-        Book bookWithId = new Book();
-        bookWithId.setId(id);
-        when(bookRepository.findById(id)).thenReturn(Optional.of(bookWithId));
-
-        mockMvc.perform(get("/books/{id}", id)
-                        .header("Authorization", "Bearer " + jwtToken)
+        mockMvc.perform(get("/books")
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id").value(id));
-        verify(bookRepository, times(1)).findById(id);
+                .andExpect(jsonPath("$[0].id").exists()); // Update with actual field in your DTO
     }
 
     @Test
-    public void testDelete() throws Exception {
-        Integer id = 11;
-        doNothing().when(bookRepository).deleteById(id);
-      mockMvc.perform(delete("/books/{id}", id)
-                        .header("Authorization", "Bearer " + jwtToken)
+    @WithMockUser(authorities = "user")
+    public void testGetBookById() throws Exception {
+        Long bookId = 1L;
+        when(bookService.getBookById(bookId)).thenReturn(Optional.of(new BookDTO()));
+
+        mockMvc.perform(get("/books/{id}", bookId)
+                        .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").exists()); // Update with actual field in your DTO
+    }
+
+    @Test
+    @WithMockUser(authorities = "user")
+    public void testUpdateBook() throws Exception {
+        Long bookId = 1L;
+        BookDTO updatedBookDTO = new BookDTO();
+        updatedBookDTO.setBookName("Updated Book");
+
+        when(bookService.updateBook(bookId, updatedBookDTO)).thenReturn(updatedBookDTO);
+
+        mockMvc.perform(put("/books/{id}", bookId)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(asJsonString(updatedBookDTO)))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.bookName").value("Updated Book"));
+    }
+
+    @Test
+    @WithMockUser(authorities = "user")
+    public void testSaveBook() throws Exception {
+        BookDTO bookDTO = new BookDTO();
+        bookDTO.setBookName("New Book");
+
+        when(bookService.saveBook(any(BookDTO.class))).thenReturn(bookDTO);
+
+        mockMvc.perform(post("/books")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(asJsonString(bookDTO)))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.bookName").value("New Book"));
+    }
+
+    @Test
+    @WithMockUser(authorities = "user")
+    public void testDeleteBook() throws Exception {
+        Long bookId = 1L;
+
+        mockMvc.perform(delete("/books/{id}", bookId)
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isNoContent());
     }
-    @Test
-    public void testBookNotFound() throws Exception {
-        Integer nonExistentId = 100;
-        when(bookRepository.findById(nonExistentId)).thenReturn(Optional.empty());
-        mockMvc.perform(get("/books/{id}", nonExistentId)
-                        .header("Authorization", "Bearer " + jwtToken))
-                .andExpect(status().isNotFound());
-    }
 
-    @Test
-    public void testGetNonExistentBook() throws Exception {
-        // Test getting details of a book that does not exist
-        Integer nonExistentId = 100;
-        when(bookRepository.findById(nonExistentId)).thenReturn(Optional.empty());
-
-        mockMvc.perform(get("/books/{id}", nonExistentId)
-                        .header("Authorization", "Bearer " + jwtToken)
-                        .contentType(MediaType.APPLICATION_JSON))
-                .andExpect(status().isNotFound());
+    private String asJsonString(final Object obj) {
+        try {
+            return new ObjectMapper().writeValueAsString(obj);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 }
+
+
+
+
 

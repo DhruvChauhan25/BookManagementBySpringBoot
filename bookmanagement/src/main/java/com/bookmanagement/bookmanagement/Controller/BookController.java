@@ -1,7 +1,7 @@
 package com.bookmanagement.bookmanagement.Controller;
 
-import com.bookmanagement.bookmanagement.BookDTO;
-import com.bookmanagement.bookmanagement.Security.JwtService;
+import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
+import com.bookmanagement.bookmanagement.Service.JwtService;
 import com.bookmanagement.bookmanagement.Service.BookService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
@@ -31,6 +31,7 @@ public class BookController {
     private JwtService jwtService;
     @Autowired
     private BookService bookService;
+
 
     @GetMapping
     @PreAuthorize("hasAuthority('user')")

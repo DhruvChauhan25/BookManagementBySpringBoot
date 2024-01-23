@@ -1,7 +1,7 @@
 package com.bookmanagement.bookmanagement.config;
 
-import com.bookmanagement.bookmanagement.Security.JwtAuthFilter;
-import com.bookmanagement.bookmanagement.UserInfoUserDetailsService;
+import com.bookmanagement.bookmanagement.Authentication.JwtAuthFilter;
+import com.bookmanagement.bookmanagement.Service.UserInfoUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -36,7 +36,7 @@ public class SecurityConfig {
                 .cors(cors -> cors.disable())
                 .authorizeRequests(auth -> auth
                         .requestMatchers("/home").authenticated()
-                        .requestMatchers("/auth/login", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html", "/books/new", "/books/authenticate","/books ","/auth/new","/auth/authenticate").permitAll()
+                        .requestMatchers("/auth/login", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html", "/books/new", "/books/authenticate","/books ","/auth/new","/auth/authenticate","/actuator/health","/emails/send","/emails/getAll").permitAll()
                         .requestMatchers("/books/new").hasRole("user") // Add the new path and role requirement
                         .anyRequest().authenticated())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
