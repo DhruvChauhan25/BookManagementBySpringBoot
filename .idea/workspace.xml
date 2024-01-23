@@ -4,57 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a58951a-2840-4a8b-8e58-069d926fa07e" name="Changes" comment="commit changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/logs/archived/error.2024-01-19.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/logs/archived/error.2024-01-19.0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/logs/archived/error.2024-01-20.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/logs/archived/error.2024-01-20.0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/EntityDto/BookDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Security/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Authentication/AuthRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Authentication/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/UserInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Repository/UserInfoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/UserInfoUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/UserInfoUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/UserInfoUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/UserInfoUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/BookDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Security/AuthRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Security/JwtAuthFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Security/JwtService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/UserInfoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/UserInfoUserDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/UserInfoUserDetailsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/TEST-com.bookmanagement.bookmanagement.BookmanagementApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/TEST-com.bookmanagement.bookmanagement.BookmanagementApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/com.bookmanagement.bookmanagement.BookmanagementApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/com.bookmanagement.bookmanagement.BookmanagementApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="0a58951a-2840-4a8b-8e58-069d926fa07e" name="Changes" comment="commit changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,35 +42,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BookmanagementApplication.executor": "Run",
-    "JUnit.BookmanagementApplicationTest.executor": "Run",
-    "JUnit.BookmanagementApplicationTest.testGet.executor": "Run",
-    "JUnit.BookmanagementApplicationTests (1).executor": "Run",
-    "JUnit.BookmanagementApplicationTests.executor": "Run",
-    "JUnit.BookmanagementApplicationTests.testAddNew.executor": "Run",
-    "JUnit.BookmanagementApplicationTests.testDelete.executor": "Run",
-    "JUnit.BookmanagementApplicationTests.testEmailSending.executor": "Run",
-    "JUnit.BookmanagementApplicationTests.testGet.executor": "Run",
-    "JUnit.BookmanagementApplicationTests.testGetAllBooks.executor": "Run",
-    "JUnit.BookmanagementApplicationTests.testListAll.executor": "Run",
-    "JUnit.BookmanagementApplicationTests.testUpdate.executor": "Run",
-    "Maven.bookmanagement [clean].executor": "Run",
-    "Maven.bookmanagement [install].executor": "Run",
-    "Maven.bookmanagement [spring-boot:run...].executor": "Run",
-    "Maven.bookmanagement [spring-boot:run].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/KumarDhr/Downloads/bookmanagement",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BookmanagementApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTest.testGet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTests (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTests.testAddNew.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTests.testDelete.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTests.testEmailSending.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTests.testGet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTests.testGetAllBooks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTests.testListAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookmanagementApplicationTests.testUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookmanagement [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookmanagement [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookmanagement [spring-boot:run...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookmanagement [spring-boot:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KumarDhr/Downloads/bookmanagement&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bookmanagement.bookmanagement.config" />
@@ -323,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705927315421</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1706020508842</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706020508842</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
