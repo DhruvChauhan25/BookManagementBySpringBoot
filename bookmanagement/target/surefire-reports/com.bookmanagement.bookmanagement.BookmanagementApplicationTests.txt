@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.bookmanagement.bookmanagement.BookmanagementApplicationTests
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.26 s -- in com.bookmanagement.bookmanagement.BookmanagementApplicationTests
