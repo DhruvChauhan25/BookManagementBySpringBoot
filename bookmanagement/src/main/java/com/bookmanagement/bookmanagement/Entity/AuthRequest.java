@@ -1,4 +1,4 @@
-package com.bookmanagement.bookmanagement.Authentication;
+package com.bookmanagement.bookmanagement.Entity;
 
 import lombok.AllArgsConstructor;
 

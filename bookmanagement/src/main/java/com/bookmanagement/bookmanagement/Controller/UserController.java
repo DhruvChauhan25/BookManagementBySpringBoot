@@ -1,6 +1,6 @@
 package com.bookmanagement.bookmanagement.Controller;
 
-import com.bookmanagement.bookmanagement.Authentication.AuthRequest;
+import com.bookmanagement.bookmanagement.Entity.AuthRequest;
 import com.bookmanagement.bookmanagement.Service.JwtService;
 import com.bookmanagement.bookmanagement.Service.UserService;
 import com.bookmanagement.bookmanagement.Entity.UserInfo;
