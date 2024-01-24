@@ -1,4 +1,4 @@
-package com.bookmanagement.bookmanagement.healthcheck;
+package com.bookmanagement.bookmanagement.utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.health.Health;
