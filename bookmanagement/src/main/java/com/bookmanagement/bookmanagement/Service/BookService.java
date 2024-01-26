@@ -2,6 +2,7 @@ package com.bookmanagement.bookmanagement.Service;
 
 import com.bookmanagement.bookmanagement.Entity.Book;
 import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
+import com.bookmanagement.bookmanagement.kafka.KafkaProducer;
 import com.bookmanagement.bookmanagement.Repository.BookRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +19,11 @@ public class BookService {
 
     @Autowired
     private BookRepository bookRepository;
+
+    @Autowired
+    private KafkaProducer kafkaProducer;
+
+
 
     public List<BookDTO> getAllBooks() {
         logger.debug("Showing all up the users");
@@ -61,4 +67,19 @@ public class BookService {
             throw new IllegalArgumentException("Book with id " + id + " not found");
         }
     }
+
+
+
+
+    public BookDTO saveBookAndPublishToKafka(BookDTO bookDTO) {
+        logger.debug("Saving the book");
+        Book book = bookRepository.save(BookDTO.toEntity(bookDTO));
+
+        // Optionally, you can send the saved bookDTO to Kafka here
+        kafkaProducer.sendBook(BookDTO.fromEntity(book));
+
+        return BookDTO.fromEntity(book);
+    }
+
+
 }

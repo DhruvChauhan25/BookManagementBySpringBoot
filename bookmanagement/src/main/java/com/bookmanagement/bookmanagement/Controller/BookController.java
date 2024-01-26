@@ -1,8 +1,8 @@
 package com.bookmanagement.bookmanagement.Controller;
 
 import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
-import com.bookmanagement.bookmanagement.Service.JwtService;
 import com.bookmanagement.bookmanagement.Service.BookService;
+import com.bookmanagement.bookmanagement.Service.JwtService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -67,6 +67,7 @@ public class BookController {
     public ResponseEntity<BookDTO> saveBook(@RequestBody BookDTO bookDTO) {
         logger.debug("Showing all the Users");
         BookDTO savedBook = bookService.saveBook(bookDTO);
+
         return new ResponseEntity<>(savedBook, HttpStatus.OK);
     }
 
@@ -80,5 +81,18 @@ public class BookController {
         bookService.deleteBook(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
+
+
+
+
+    @PostMapping("/kafka")
+    @PreAuthorize("hasAuthority('user')")
+    @Operation(summary = "Save a new book via Kafka", description = "Save a new book using Kafka", tags = {"Book Details"})
+    public ResponseEntity<Void> saveBookViaKafka(@RequestBody BookDTO bookDTO) {
+        logger.debug("Saving the book via Kafka");
+        bookService.saveBookAndPublishToKafka(bookDTO);
+        return new ResponseEntity<>(HttpStatus.ACCEPTED);
+    }
+
 
 }

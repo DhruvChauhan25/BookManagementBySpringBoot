@@ -1,9 +1,9 @@
 package com.bookmanagement.bookmanagement.Controller;
 
 import com.bookmanagement.bookmanagement.Entity.AuthRequest;
+import com.bookmanagement.bookmanagement.Entity.UserInfo;
 import com.bookmanagement.bookmanagement.Service.JwtService;
 import com.bookmanagement.bookmanagement.Service.UserService;
-import com.bookmanagement.bookmanagement.Entity.UserInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -20,8 +20,9 @@ public class UserController {
     private final UserService userService;
 
 
+
     @Autowired
-    public UserController(AuthenticationManager authenticationManager, JwtService jwtService,  UserService userService) {
+    public UserController(AuthenticationManager authenticationManager, JwtService jwtService,  UserService userService ) {
         this.authenticationManager = authenticationManager;
         this.jwtService = jwtService;
         this.userService = userService;

@@ -6,13 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="0a58951a-2840-4a8b-8e58-069d926fa07e" name="Changes" comment="commit changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Authentication/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/logs/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/scheduler/MyScheduledTasks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/EmailAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/EmailAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/EmailAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/healthcheck/MemoryHealthIndicator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/EntityDto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/EntityDto/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/EntityDto/BookDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/EntityDto/BookDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +333,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706101886977</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1706130111497</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706130111497</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1706130229776</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706130229776</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

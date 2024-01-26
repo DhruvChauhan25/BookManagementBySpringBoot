@@ -36,7 +36,7 @@ public class SecurityConfig {
                 .cors(cors -> cors.disable())
                 .authorizeRequests(auth -> auth
                         .requestMatchers("/home").authenticated()
-                        .requestMatchers("/auth/login", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html", "/books/new", "/books/authenticate","/books ","/auth/new","/auth/authenticate","/actuator/health","/emails/send","/emails/getAll").permitAll()
+                        .requestMatchers("/auth/login", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html", "/books/new", "/books/authenticate","/books ","/auth/new","/auth/authenticate","/actuator/health","/emails/send","/emails/getAll","/kafka","/books/kafka").permitAll()
                         .requestMatchers("/books/new").hasRole("user") // Add the new path and role requirement
                         .anyRequest().authenticated())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));

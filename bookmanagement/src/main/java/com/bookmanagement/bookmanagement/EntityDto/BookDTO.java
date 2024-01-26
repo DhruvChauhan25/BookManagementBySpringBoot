@@ -1,7 +1,12 @@
 
 package com.bookmanagement.bookmanagement.EntityDto;
+
 import com.bookmanagement.bookmanagement.Entity.Book;
-import lombok.*;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Data
 @NoArgsConstructor
@@ -9,9 +14,16 @@ import lombok.*;
 @ToString
 public class BookDTO {
 
+    @JsonProperty("id")
     private Integer id;
+
+    @JsonProperty("bookName")
     private String bookName;
+
+    @JsonProperty("author")
     private String author;
+
+    @JsonProperty("price")
     private Integer price;
 
     public static BookDTO fromEntity(Book book) {
