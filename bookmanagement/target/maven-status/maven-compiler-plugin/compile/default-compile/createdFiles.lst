@@ -1,6 +1,0 @@
-com\bookmanagement\bookmanagement\BookmanagementApplication.class
-com\bookmanagement\bookmanagement\KafkaConfig.class
-com\bookmanagement\bookmanagement\BookmanagementApplication$SwaggerConfig.class
-com\bookmanagement\bookmanagement\JacksonConfig.class
-com\bookmanagement\bookmanagement\KafkaProducer.class
-com\bookmanagement\bookmanagement\KafkaConsumer.class
