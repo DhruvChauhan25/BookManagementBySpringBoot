@@ -16,7 +16,7 @@ public class EmailAspect {
     @Autowired
     private MailSender mailSender;
 
-    @Before("execution(* com.bookmanagement.bookmanagement.Controller.*Controller.*(..)) && !execution(* com.bookmanagement.bookmanagement.controller.*Controller.authenticateAndGetToken(..))")
+    @Before("execution(* com.bookmanagement.bookmanagement.controller.*controller.*(..)) && !execution(* com.bookmanagement.bookmanagement.controller.*controller.authenticateAndGetToken(..))")
     public void sendEmailBeforeMethodExecution(JoinPoint joinPoint) {
         String methodName = joinPoint.getSignature().getName();
         String to = "dhruv@gmail.com";
@@ -25,7 +25,7 @@ public class EmailAspect {
         sendEmail(to, subject, text);
     }
 
-    @After("execution(* com.bookmanagement.bookmanagement.Controller.*Controller.*(..)) && !execution(* com.bookmanagement.bookmanagement.controller.*Controller.authenticateAndGetToken(..))")
+    @After("execution(* com.bookmanagement.bookmanagement.controller.*controller.*(..)) && !execution(* com.bookmanagement.bookmanagement.controller.*controller.authenticateAndGetToken(..))")
     public void sendEmailAfterMethodExecution(JoinPoint joinPoint) {
         String methodName = joinPoint.getSignature().getName();
         String to = "dhruv@gmail.com";

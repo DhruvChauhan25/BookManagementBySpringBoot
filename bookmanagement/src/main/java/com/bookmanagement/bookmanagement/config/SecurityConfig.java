@@ -1,7 +1,7 @@
 package com.bookmanagement.bookmanagement.config;
 
-import com.bookmanagement.bookmanagement.Authentication.JwtAuthFilter;
-import com.bookmanagement.bookmanagement.Service.UserInfoUserDetailsService;
+import com.bookmanagement.bookmanagement.authentication.JwtAuthFilter;
+import com.bookmanagement.bookmanagement.service.UserInfoUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
 package com.bookmanagement.bookmanagement.kafka;
 
-import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
+import com.bookmanagement.bookmanagement.entityDto.BookDTO;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,7 @@ public class KafkaProducer {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    public void sendBook(BookDTO bookDTO) {
-        kafkaTemplate.send("book-topic", bookDTO);
+    public void sendBookToQueue(BookDTO bookDTO) {
+        kafkaTemplate.send("book-queue", bookDTO);
     }
 }

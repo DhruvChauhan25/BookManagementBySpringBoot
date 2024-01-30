@@ -1,7 +1,7 @@
 package com.bookmanagement.bookmanagement.kafka;
 
-import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
-import com.bookmanagement.bookmanagement.Service.BookService;
+import com.bookmanagement.bookmanagement.entityDto.BookDTO;
+import com.bookmanagement.bookmanagement.service.BookService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
@@ -17,18 +17,16 @@ public class KafkaConsumer {
         this.objectMapper = objectMapper;
     }
 
-    @KafkaListener(topics = "book-topic", groupId = "book-consumer-group")
+    @KafkaListener(topics = "book-queue", groupId = "book-consumer-group")
     public void consume(String message) {
         try {
-            // Convert JSON string to BookDTO
             BookDTO bookDTO = objectMapper.readValue(message, BookDTO.class);
-
-            // Process the received bookDTO
             bookService.saveBook(bookDTO);
-            System.out.println("Bhai bhai bhai bhai!!!!!");
+            System.out.println("Book data saved to the database!");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 }
+
 
