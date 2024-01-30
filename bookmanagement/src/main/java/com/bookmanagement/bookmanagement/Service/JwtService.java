@@ -1,4 +1,4 @@
-package com.bookmanagement.bookmanagement.service;
+package com.bookmanagement.bookmanagement.Service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

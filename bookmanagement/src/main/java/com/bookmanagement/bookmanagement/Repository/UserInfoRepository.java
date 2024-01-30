@@ -1,6 +1,6 @@
-package com.bookmanagement.bookmanagement.repository;
+package com.bookmanagement.bookmanagement.Repository;
 
-import com.bookmanagement.bookmanagement.entity.UserInfo;
+import com.bookmanagement.bookmanagement.Entity.UserInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

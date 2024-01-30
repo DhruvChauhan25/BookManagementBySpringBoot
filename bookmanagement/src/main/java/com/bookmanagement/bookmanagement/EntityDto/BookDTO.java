@@ -1,7 +1,7 @@
 
-package com.bookmanagement.bookmanagement.entityDto;
+package com.bookmanagement.bookmanagement.EntityDto;
 
-import com.bookmanagement.bookmanagement.entity.Book;
+import com.bookmanagement.bookmanagement.Entity.Book;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;

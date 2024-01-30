@@ -1,8 +1,8 @@
-package com.bookmanagement.bookmanagement.service;
+package com.bookmanagement.bookmanagement.Service;
 
-import com.bookmanagement.bookmanagement.repository.UserInfoRepository;
-import com.bookmanagement.bookmanagement.entity.UserInfo;
-import com.bookmanagement.bookmanagement.entity.UserInfoUserDetails;
+import com.bookmanagement.bookmanagement.Repository.UserInfoRepository;
+import com.bookmanagement.bookmanagement.Entity.UserInfo;
+import com.bookmanagement.bookmanagement.Entity.UserInfoUserDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

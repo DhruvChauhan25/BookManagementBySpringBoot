@@ -1,4 +1,4 @@
-package com.bookmanagement.bookmanagement.entity;
+package com.bookmanagement.bookmanagement.Entity;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

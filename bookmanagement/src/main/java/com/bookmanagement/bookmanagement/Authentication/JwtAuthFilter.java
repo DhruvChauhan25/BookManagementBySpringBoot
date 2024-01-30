@@ -1,7 +1,7 @@
-package com.bookmanagement.bookmanagement.authentication;
+package com.bookmanagement.bookmanagement.Authentication;
 
-import com.bookmanagement.bookmanagement.service.JwtService;
-import com.bookmanagement.bookmanagement.service.UserInfoUserDetailsService;
+import com.bookmanagement.bookmanagement.Service.JwtService;
+import com.bookmanagement.bookmanagement.Service.UserInfoUserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

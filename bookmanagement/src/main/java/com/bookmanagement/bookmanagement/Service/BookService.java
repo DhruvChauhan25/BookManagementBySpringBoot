@@ -1,9 +1,9 @@
-package com.bookmanagement.bookmanagement.service;
+package com.bookmanagement.bookmanagement.Service;
 
-import com.bookmanagement.bookmanagement.entity.Book;
-import com.bookmanagement.bookmanagement.entityDto.BookDTO;
+import com.bookmanagement.bookmanagement.Entity.Book;
+import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
 import com.bookmanagement.bookmanagement.kafka.KafkaProducer;
-import com.bookmanagement.bookmanagement.repository.BookRepository;
+import com.bookmanagement.bookmanagement.Repository.BookRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
-package com.bookmanagement.bookmanagement.service;
+package com.bookmanagement.bookmanagement.Service;
 
-import com.bookmanagement.bookmanagement.entity.UserInfo;
-import com.bookmanagement.bookmanagement.repository.UserInfoRepository;
+import com.bookmanagement.bookmanagement.Entity.UserInfo;
+import com.bookmanagement.bookmanagement.Repository.UserInfoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -22,6 +22,6 @@ public class UserService {
     public String addUser(UserInfo userInfo) {
         userInfo.setPassword(passwordEncoder.encode(userInfo.getPassword()));
         repository.save(userInfo);
-        return "entity added to system.";
+        return "Entity added to system.";
     }
 }

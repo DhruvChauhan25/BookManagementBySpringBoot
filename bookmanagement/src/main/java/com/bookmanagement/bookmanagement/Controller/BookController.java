@@ -1,8 +1,8 @@
-package com.bookmanagement.bookmanagement.controller;
+package com.bookmanagement.bookmanagement.Controller;
 
-import com.bookmanagement.bookmanagement.entityDto.BookDTO;
-import com.bookmanagement.bookmanagement.service.BookService;
-import com.bookmanagement.bookmanagement.service.JwtService;
+import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
+import com.bookmanagement.bookmanagement.Service.BookService;
+import com.bookmanagement.bookmanagement.Service.JwtService;
 import com.bookmanagement.bookmanagement.kafka.KafkaProducer;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

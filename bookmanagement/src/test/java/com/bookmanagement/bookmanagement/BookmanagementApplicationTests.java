@@ -1,9 +1,9 @@
 //package com.bookmanagement.bookmanagement;
 //
-//import com.bookmanagement.bookmanagement.controller.BookController;
-//import com.bookmanagement.bookmanagement.entityDto.BookDTO;
-//import com.bookmanagement.bookmanagement.repository.BookRepository;
-//import com.bookmanagement.bookmanagement.service.BookService;
+//import com.bookmanagement.bookmanagement.Controller.BookController;
+//import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
+//import com.bookmanagement.bookmanagement.Repository.BookRepository;
+//import com.bookmanagement.bookmanagement.Service.BookService;
 //import com.fasterxml.jackson.databind.ObjectMapper;
 //import org.junit.jupiter.api.Test;
 //import org.mockito.InjectMocks;
