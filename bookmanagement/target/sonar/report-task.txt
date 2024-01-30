@@ -1,6 +1,0 @@
-projectKey=com.bookmanagement:bookmanagement
-serverUrl=http://localhost:9090
-serverVersion=10.3.0.82913
-dashboardUrl=http://localhost:9090/dashboard?id=com.bookmanagement%3Abookmanagement
-ceTaskId=AY1aBAeRHxUHESxzQKPH
-ceTaskUrl=http://localhost:9090/api/ce/task?id=AY1aBAeRHxUHESxzQKPH
