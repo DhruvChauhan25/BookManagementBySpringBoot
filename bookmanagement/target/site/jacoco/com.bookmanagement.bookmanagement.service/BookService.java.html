@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>BookService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">bookmanagement</a> &gt; <a href="index.source.html" class="el_package">com.bookmanagement.bookmanagement.service</a> &gt; <span class="el_source">BookService.java</span></div><h1>BookService.java</h1><pre class="source lang-java linenums">package com.bookmanagement.bookmanagement.service;
+
+import com.bookmanagement.bookmanagement.entity.Book;
+import com.bookmanagement.bookmanagement.entitydto.BookDTO;
+import com.bookmanagement.bookmanagement.kafka.KafkaProducer;
+import com.bookmanagement.bookmanagement.repository.BookRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+@Service
+public class BookService {
+<span class="fc" id="L18">    private final Logger logger = LoggerFactory.getLogger(BookService.class);</span>
+
+    private final BookRepository bookRepository;
+    private final KafkaProducer kafkaProducer;
+
+    @Autowired
+<span class="fc" id="L24">    public BookService(BookRepository bookRepository, KafkaProducer kafkaProducer) {</span>
+<span class="fc" id="L25">        this.bookRepository = bookRepository;</span>
+<span class="fc" id="L26">        this.kafkaProducer = kafkaProducer;</span>
+<span class="fc" id="L27">    }</span>
+
+    public List&lt;BookDTO&gt; getAllBooks() {
+<span class="fc" id="L30">        logger.debug(&quot;Showing all up the users&quot;);</span>
+<span class="fc" id="L31">        List&lt;Book&gt; books = bookRepository.findAll();</span>
+<span class="fc" id="L32">        return books.stream()</span>
+<span class="fc" id="L33">                .map(BookDTO::fromEntity)</span>
+<span class="fc" id="L34">                .collect(Collectors.toList());</span>
+    }
+
+    public Optional&lt;BookDTO&gt; getBookById(Long id) {
+<span class="fc" id="L38">        logger.debug(&quot;Finding all the user&quot;);</span>
+<span class="fc" id="L39">        return bookRepository.findById(Math.toIntExact(id))</span>
+<span class="fc" id="L40">                .map(BookDTO::fromEntity);</span>
+    }
+
+    public BookDTO saveBook(BookDTO bookDTO) {
+<span class="fc" id="L44">        logger.debug(&quot;Saving the book&quot;);</span>
+<span class="fc" id="L45">        Book book = bookRepository.save(BookDTO.toEntity(bookDTO));</span>
+<span class="fc" id="L46">        return BookDTO.fromEntity(book);</span>
+    }
+
+    public void deleteBook(Long id) {
+<span class="fc" id="L50">        logger.debug(&quot;Deleting up the users&quot;);</span>
+<span class="fc" id="L51">        bookRepository.deleteById(Math.toIntExact(id));</span>
+<span class="fc" id="L52">    }</span>
+
+    public BookDTO updateBook(Long id, BookDTO updatedBookDTO) {
+<span class="fc" id="L55">        logger.debug(&quot;Updating the book by id&quot;);</span>
+<span class="fc" id="L56">        Optional&lt;Book&gt; optionalBook = bookRepository.findById(Math.toIntExact(id));</span>
+
+<span class="pc bpc" id="L58" title="1 of 2 branches missed.">        if (optionalBook.isPresent()) {</span>
+<span class="fc" id="L59">            Book existingBook = optionalBook.get();</span>
+<span class="fc" id="L60">            existingBook.setBookName(updatedBookDTO.getBookName());</span>
+<span class="fc" id="L61">            existingBook.setAuthor(updatedBookDTO.getAuthor());</span>
+<span class="fc" id="L62">            existingBook.setPrice(updatedBookDTO.getPrice());</span>
+
+<span class="fc" id="L64">            Book updatedBook = bookRepository.save(existingBook);</span>
+<span class="fc" id="L65">            return BookDTO.fromEntity(updatedBook);</span>
+        } else {
+<span class="nc" id="L67">            throw new IllegalArgumentException(&quot;Book with id &quot; + id + &quot; not found&quot;);</span>
+        }
+    }
+
+    public BookDTO saveBookAndPublishToKafka(BookDTO bookDTO) {
+<span class="nc" id="L72">        logger.debug(&quot;Saving the book&quot;);</span>
+<span class="nc" id="L73">        Book book = bookRepository.save(BookDTO.toEntity(bookDTO));</span>
+<span class="nc" id="L74">        kafkaProducer.sendBookToQueue(BookDTO.fromEntity(book));</span>
+
+<span class="nc" id="L76">        return BookDTO.fromEntity(book);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

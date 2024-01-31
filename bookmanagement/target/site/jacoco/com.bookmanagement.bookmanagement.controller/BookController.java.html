@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>BookController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">bookmanagement</a> &gt; <a href="index.source.html" class="el_package">com.bookmanagement.bookmanagement.controller</a> &gt; <span class="el_source">BookController.java</span></div><h1>BookController.java</h1><pre class="source lang-java linenums">package com.bookmanagement.bookmanagement.controller;
+
+import com.bookmanagement.bookmanagement.entitydto.BookDTO;
+import com.bookmanagement.bookmanagement.service.BookService;
+import com.bookmanagement.bookmanagement.kafka.KafkaProducer;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Optional;
+
+@RestController
+@RequestMapping(&quot;/books&quot;)
+@SecurityRequirement(name=&quot;Bearer-key&quot;)
+@Tag(name = &quot;Book Details&quot;, description = &quot;Endpoints for managing book details&quot;)
+public class BookController {
+<span class="fc" id="L25">    private final Logger logger = LoggerFactory.getLogger(BookController.class);</span>
+
+    private final BookService bookService;
+    private final KafkaProducer kafkaProducer;
+
+    @Autowired
+    public BookController(
+            BookService bookService,
+            KafkaProducer kafkaProducer
+<span class="fc" id="L34">    ) {</span>
+<span class="fc" id="L35">        this.bookService = bookService;</span>
+<span class="fc" id="L36">        this.kafkaProducer = kafkaProducer;</span>
+<span class="fc" id="L37">    }</span>
+
+    @GetMapping
+    @PreAuthorize(&quot;hasAuthority('user')&quot;)
+    @Operation(summary = &quot;Get all books&quot;, description = &quot;Get a list of all books&quot;, tags = {&quot;Book Details&quot;})
+    public ResponseEntity&lt;List&lt;BookDTO&gt;&gt; getAllBooks() {
+<span class="fc" id="L43">        logger.debug(&quot;Listing all the Users&quot;);</span>
+<span class="fc" id="L44">        List&lt;BookDTO&gt; books = bookService.getAllBooks();</span>
+<span class="fc" id="L45">        return new ResponseEntity&lt;&gt;(books, HttpStatus.OK);</span>
+    }
+
+    @GetMapping(&quot;/{id}&quot;)
+    @PreAuthorize(&quot;hasAuthority('user')&quot;)
+    @Operation(summary = &quot;Get book by ID&quot;, description = &quot;Get a book by its ID&quot;, tags = {&quot;Book Details&quot;})
+    public ResponseEntity&lt;BookDTO&gt; getBookById(@PathVariable Long id) {
+<span class="fc" id="L52">        logger.debug(&quot;Getting all the users By id&quot;);</span>
+<span class="fc" id="L53">        Optional&lt;BookDTO&gt; bookDTO = bookService.getBookById(id);</span>
+<span class="fc" id="L54">        return bookDTO.map(dto -&gt; new ResponseEntity&lt;&gt;(dto, HttpStatus.OK))</span>
+<span class="fc" id="L55">                .orElseGet(() -&gt; new ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND));</span>
+    }
+
+    @PutMapping(&quot;/{id}&quot;)
+    @PreAuthorize(&quot;hasAuthority('user')&quot;)
+    @Operation(summary = &quot;Update a book&quot;, description = &quot;Update a book by its ID&quot;, tags = {&quot;Book Details&quot;})
+    public ResponseEntity&lt;BookDTO&gt; updateBook(@PathVariable Long id, @RequestBody BookDTO updatedBookDTO) {
+<span class="fc" id="L62">        logger.debug(&quot;Updating the user by id&quot;);</span>
+<span class="fc" id="L63">        BookDTO updatedBook = bookService.updateBook(id, updatedBookDTO);</span>
+<span class="fc" id="L64">        return new ResponseEntity&lt;&gt;(updatedBook, HttpStatus.OK);</span>
+    }
+
+    @PostMapping
+    @PreAuthorize(&quot;hasAuthority('user')&quot;)
+    @Operation(summary = &quot;Save a new book&quot;, description = &quot;Save a new book&quot;, tags = {&quot;Book Details&quot;})
+    public ResponseEntity&lt;BookDTO&gt; saveBook(@RequestBody BookDTO bookDTO) {
+<span class="fc" id="L71">        logger.debug(&quot;Showing all the Users&quot;);</span>
+<span class="fc" id="L72">        BookDTO savedBook = bookService.saveBook(bookDTO);</span>
+<span class="fc" id="L73">        return new ResponseEntity&lt;&gt;(savedBook, HttpStatus.OK);</span>
+    }
+
+    @DeleteMapping(&quot;/{id}&quot;)
+    @PreAuthorize(&quot;hasAuthority('user')&quot;)
+    @Operation(summary = &quot;Delete a book&quot;, description = &quot;Delete a book by its ID&quot;, tags = {&quot;Book Details&quot;})
+    public ResponseEntity&lt;Void&gt; deleteUser(@PathVariable Long id) {
+<span class="fc" id="L80">        logger.debug(&quot;Deleting up the users by id&quot;);</span>
+<span class="fc" id="L81">        bookService.deleteBook(id);</span>
+<span class="fc" id="L82">        return new ResponseEntity&lt;&gt;(HttpStatus.NO_CONTENT);</span>
+    }
+
+    @PostMapping(&quot;/kafka&quot;)
+    @PreAuthorize(&quot;hasAuthority('user')&quot;)
+    public ResponseEntity&lt;Void&gt; saveBookViaKafka(@RequestBody BookDTO bookDTO) {
+<span class="nc" id="L88">        logger.debug(&quot;Sending book data to Kafka queue&quot;);</span>
+<span class="nc" id="L89">        kafkaProducer.sendBookToQueue(bookDTO);</span>
+<span class="nc" id="L90">        return new ResponseEntity&lt;&gt;(HttpStatus.ACCEPTED);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
