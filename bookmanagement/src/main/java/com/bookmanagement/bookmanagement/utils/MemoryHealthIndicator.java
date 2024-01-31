@@ -5,10 +5,17 @@ import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
+
 @Component
 public class MemoryHealthIndicator implements HealthIndicator {
+
+    private final JdbcTemplate jdbcTemplate;
+
     @Autowired
-    private JdbcTemplate jdbcTemplate;
+    public MemoryHealthIndicator(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
+
     @Override
     public Health health() {
         if (isDatabaseConnectionHealthy()) {
@@ -17,6 +24,7 @@ public class MemoryHealthIndicator implements HealthIndicator {
             return Health.down().withDetail("message", "Database connection is not healthy").build();
         }
     }
+
     private boolean isDatabaseConnectionHealthy() {
         try {
             jdbcTemplate.queryForObject("SELECT 1 FROM dual", Integer.class);

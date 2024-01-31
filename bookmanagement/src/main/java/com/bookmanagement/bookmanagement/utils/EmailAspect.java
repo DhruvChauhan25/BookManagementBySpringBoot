@@ -13,10 +13,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class EmailAspect {
 
-    @Autowired
-    private MailSender mailSender;
+    private final MailSender mailSender;
 
-    @Before("execution(* com.bookmanagement.bookmanagement.Controller.*Controller.*(..)) && !execution(* com.bookmanagement.bookmanagement.Controller.*Controller.authenticateAndGetToken(..))")
+    @Autowired
+    public EmailAspect(MailSender mailSender) {
+        this.mailSender = mailSender;
+    }
+
+    @Before("execution(* com.bookmanagement.bookmanagement.controller.*controller.*(..)) && !execution(* com.bookmanagement.bookmanagement.controller.*controller.authenticateAndGetToken(..))")
     public void sendEmailBeforeMethodExecution(JoinPoint joinPoint) {
         String methodName = joinPoint.getSignature().getName();
         String to = "dhruv@gmail.com";
@@ -25,7 +29,7 @@ public class EmailAspect {
         sendEmail(to, subject, text);
     }
 
-    @After("execution(* com.bookmanagement.bookmanagement.Controller.*Controller.*(..)) && !execution(* com.bookmanagement.bookmanagement.Controller.*Controller.authenticateAndGetToken(..))")
+    @After("execution(* com.bookmanagement.bookmanagement.controller.*controller.*(..)) && !execution(* com.bookmanagement.bookmanagement.controller.*controller.authenticateAndGetToken(..))")
     public void sendEmailAfterMethodExecution(JoinPoint joinPoint) {
         String methodName = joinPoint.getSignature().getName();
         String to = "dhruv@gmail.com";
@@ -34,9 +38,7 @@ public class EmailAspect {
         sendEmail(to, subject, text);
     }
 
-
-
-     void sendEmail(String to, String subject, String text) {
+    public void sendEmail(String to, String subject, String text) {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo(to);
         message.setSubject(subject);

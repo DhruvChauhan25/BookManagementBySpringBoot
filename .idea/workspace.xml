@@ -4,7 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a58951a-2840-4a8b-8e58-069d926fa07e" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;bookmanagement/target/classes/application-dev.properties&#10;#&#9;bookmanagement/target/classes/application.properties&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/BookmanagementApplication$SwaggerConfig.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/EntityDto/BookDTO.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/BookService.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/SecurityConfig.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaConsumer.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaProducer.class&#10;#&#9;bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <list default="true" id="0a58951a-2840-4a8b-8e58-069d926fa07e" name="Changes" comment="commit changes">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00b592c9664fbce3e61da3944b68ccb8c9fb6cec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00b592c9664fbce3e61da3944b68ccb8c9fb6cec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01c15608ce34ab5bc415ff010ff2cf1adab8af8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/0794dea29d59db488b65d5ba73fd1ad1705329ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b70d44376ccc33207769ab8dd47b1f871084f87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/1175adc75a1401456e74b40a4cfadf355725c352" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43f23c66529ddedeb0f201a760de3df05d55fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f1763f358c257ea3515417352b82b0165647ad1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23dd7868d0feddf495d4385e234c712fe1bb3b78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37291cba041deb93e1abb06459be462ee173ab20" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37291cba041deb93e1abb06459be462ee173ab20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53a032af92cdbd9d8b3e83a934285f9344484126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b05af988df6bcdce86b3e7ae366120b20323f96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e4221e2794e661ea00b1401bfc62758a0f5fec9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a811bd4c41b710767619b6cec89550abc2e6beea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a811bd4c41b710767619b6cec89550abc2e6beea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa1f9f28139e0bfc13f44fec7437dd0f58f04b8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b95d12dbeaf85ca458bb75f5bc5aea5749ea6b50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6d0c636c4a5aea8f90164d5d58261b67e5e16c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf2e21baef0713cf2f20d0e226846061ce96ebea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee00347333d15fd20fb697e95fc1dd3dce494fa6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f29d8ebe7a6723a3f7d07afba97e335132b8aa41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f32ec88812448284986ed457c5d356fafa1b2622" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7bba89df8ca4772c5f59c4b35ea859702c88d5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/1/01c15608ce34ab5bc415ff010ff2cf1adab8af8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/7/0794dea29d59db488b65d5ba73fd1ad1705329ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0b70d44376ccc33207769ab8dd47b1f871084f87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/1/1175adc75a1401456e74b40a4cfadf355725c352" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1e43f23c66529ddedeb0f201a760de3df05d55fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/f/1f1763f358c257ea3515417352b82b0165647ad1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/23dd7868d0feddf495d4385e234c712fe1bb3b78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/3/53a032af92cdbd9d8b3e83a934285f9344484126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/b/7b05af988df6bcdce86b3e7ae366120b20323f96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/e/7e4221e2794e661ea00b1401bfc62758a0f5fec9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa1f9f28139e0bfc13f44fec7437dd0f58f04b8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/9/b95d12dbeaf85ca458bb75f5bc5aea5749ea6b50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/6/c6d0c636c4a5aea8f90164d5d58261b67e5e16c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/f/cf2e21baef0713cf2f20d0e226846061ce96ebea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/ee00347333d15fd20fb697e95fc1dd3dce494fa6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/2/f29d8ebe7a6723a3f7d07afba97e335132b8aa41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f32ec88812448284986ed457c5d356fafa1b2622" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/7/f7bba89df8ca4772c5f59c4b35ea859702c88d5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Authentication/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/authentication/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entity/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/UserInfoUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entity/UserInfoUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/EntityDto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entitydto/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Repository/UserInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/repository/UserInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/UserInfoUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/service/UserInfoUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/kafka/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/kafka/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/EmailAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/EmailAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/MemoryHealthIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/MemoryHealthIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/bookmanagement.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/bookmanagement.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/bookmanagement.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/bookmanagement.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/utils/EmailAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/utils/EmailAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/sonar/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/sonar/report-task.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +123,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BookmanagementApplication.executor": "Debug",
+    "JUnit.AuthRequestTest.executor": "Run",
+    "JUnit.BookTest.executor": "Run",
     "JUnit.BookmanagementApplicationTest.executor": "Run",
     "JUnit.BookmanagementApplicationTest.testGet.executor": "Run",
     "JUnit.BookmanagementApplicationTests (1).executor": "Run",
@@ -57,6 +137,12 @@
     "JUnit.BookmanagementApplicationTests.testGetBookById.executor": "Run",
     "JUnit.BookmanagementApplicationTests.testListAll.executor": "Run",
     "JUnit.BookmanagementApplicationTests.testUpdate.executor": "Run",
+    "JUnit.EmailAspectTest.executor": "Run",
+    "JUnit.KafkaConsumerTest.executor": "Run",
+    "JUnit.KafkaMessagingTest.executor": "Run",
+    "JUnit.UserControllerTest.executor": "Run",
+    "JUnit.UserControllerTests.executor": "Run",
+    "JUnit.UserInfoUserDetailsTest.executor": "Run",
     "Maven.bookmanagement [clean].executor": "Run",
     "Maven.bookmanagement [deploy].executor": "Run",
     "Maven.bookmanagement [install].executor": "Run",
@@ -74,7 +160,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -95,90 +181,89 @@
       <command value="mvn spring-boot:run -DskipsTests -Dspring-boot.run.profiles=dev" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookmanagementApplicationTests">
-    <configuration name="BookmanagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplication" />
+  <component name="RunManager" selected="JUnit.AuthRequestTest">
+    <configuration name="AuthRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bookmanagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bookmanagement.bookmanagement.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookmanagementApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bookmanagement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bookmanagement.bookmanagement.Service.*" />
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
-      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.AuthRequestTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookmanagementApplicationTests.testEmailSending" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bookmanagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bookmanagement.bookmanagement.utils.*" />
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
-      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplicationTests" />
-      <option name="METHOD_NAME" value="testEmailSending" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookmanagementApplicationTests.testGetAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailAspectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bookmanagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bookmanagement.bookmanagement.utils.*" />
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
-      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplicationTests" />
-      <option name="METHOD_NAME" value="testGetAllBooks" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.EmailAspectTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookmanagementApplicationTests.testGetBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bookmanagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bookmanagement.bookmanagement.utils.*" />
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
-      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.BookmanagementApplicationTests" />
-      <option name="METHOD_NAME" value="testGetBookById" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoUserDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookmanagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookmanagement.bookmanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookmanagement.bookmanagement" />
+      <option name="MAIN_CLASS_NAME" value="com.bookmanagement.bookmanagement.UserInfoUserDetailsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookmanagementApplicationTests" />
-        <item itemvalue="JUnit.BookmanagementApplicationTests.testGetBookById" />
-        <item itemvalue="JUnit.BookmanagementApplicationTests.testGetAllBooks" />
-        <item itemvalue="Application.BookmanagementApplication" />
-        <item itemvalue="JUnit.BookmanagementApplicationTests.testEmailSending" />
+        <item itemvalue="JUnit.AuthRequestTest" />
+        <item itemvalue="JUnit.BookTest" />
+        <item itemvalue="JUnit.UserInfoUserDetailsTest" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.EmailAspectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +460,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706616747625</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;bookmanagement/target/classes/application-dev.properties&#10;#&#9;bookmanagement/target/classes/application.properties&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/BookmanagementApplication$SwaggerConfig.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/EntityDto/BookDTO.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/BookService.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/SecurityConfig.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaConsumer.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaProducer.class&#10;#&#9;bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+      <option name="closed" value="true" />
+      <created>1706616866387</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706616866387</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1706616895123</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706616895123</updated>
+    </task>
+    <task id="LOCAL-00025" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1706616924608</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706616924608</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,9 +499,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit changes" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;bookmanagement/target/classes/application-dev.properties&#10;#&#9;bookmanagement/target/classes/application.properties&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/BookmanagementApplication$SwaggerConfig.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/EntityDto/BookDTO.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/BookService.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/SecurityConfig.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaConsumer.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaProducer.class&#10;#&#9;bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;bookmanagement/target/classes/application-dev.properties&#10;#&#9;bookmanagement/target/classes/application.properties&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/BookmanagementApplication$SwaggerConfig.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/EntityDto/BookDTO.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/BookService.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/SecurityConfig.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaConsumer.class&#10;#&#9;bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaProducer.class&#10;#&#9;bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <MESSAGE value="commit changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit changes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bookmanagement$BookmanagementApplicationTests.ic" NAME="BookmanagementApplicationTests Coverage Results" MODIFIED="1705661222081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

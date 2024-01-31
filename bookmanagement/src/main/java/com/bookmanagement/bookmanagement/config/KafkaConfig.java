@@ -1,6 +1,6 @@
 package com.bookmanagement.bookmanagement.config;
 
-import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
+import com.bookmanagement.bookmanagement.entitydto.BookDTO;
 import com.bookmanagement.bookmanagement.kafka.KafkaProducer;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;

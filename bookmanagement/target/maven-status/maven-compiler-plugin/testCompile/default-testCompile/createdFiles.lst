@@ -1,0 +1,8 @@
+com\bookmanagement\bookmanagement\EmailAspectTest.class
+com\bookmanagement\bookmanagement\UserInfoUserDetailsTest.class
+com\bookmanagement\bookmanagement\BookmanagementApplicationTests.class
+com\bookmanagement\bookmanagement\AuthRequestTest.class
+com\bookmanagement\bookmanagement\UserControllerTest.class
+com\bookmanagement\bookmanagement\BookTest.class
+com\bookmanagement\bookmanagement\KafkaMessagingTest.class
+com\bookmanagement\bookmanagement\UserControllerTest$TestConfig.class

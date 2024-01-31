@@ -1,6 +1,6 @@
 package com.bookmanagement.bookmanagement.kafka;
 
-import com.bookmanagement.bookmanagement.EntityDto.BookDTO;
+import com.bookmanagement.bookmanagement.entitydto.BookDTO;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 

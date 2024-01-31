@@ -5,10 +5,14 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Scheduler{
+public class Scheduler {
+
+    private final EmailAspect emailAspect;
 
     @Autowired
-    private EmailAspect emailAspect;
+    public Scheduler(EmailAspect emailAspect) {
+        this.emailAspect = emailAspect;
+    }
 
     @Scheduled(fixedRate = 60000)
     public void triggerEmailAspect() {
