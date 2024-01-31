@@ -5,83 +5,209 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a58951a-2840-4a8b-8e58-069d926fa07e" name="Changes" comment="commit changes">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00b592c9664fbce3e61da3944b68ccb8c9fb6cec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00b592c9664fbce3e61da3944b68ccb8c9fb6cec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01c15608ce34ab5bc415ff010ff2cf1adab8af8f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/0794dea29d59db488b65d5ba73fd1ad1705329ab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b70d44376ccc33207769ab8dd47b1f871084f87" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/1175adc75a1401456e74b40a4cfadf355725c352" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43f23c66529ddedeb0f201a760de3df05d55fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f1763f358c257ea3515417352b82b0165647ad1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23dd7868d0feddf495d4385e234c712fe1bb3b78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37291cba041deb93e1abb06459be462ee173ab20" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37291cba041deb93e1abb06459be462ee173ab20" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53a032af92cdbd9d8b3e83a934285f9344484126" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b05af988df6bcdce86b3e7ae366120b20323f96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e4221e2794e661ea00b1401bfc62758a0f5fec9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a811bd4c41b710767619b6cec89550abc2e6beea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a811bd4c41b710767619b6cec89550abc2e6beea" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa1f9f28139e0bfc13f44fec7437dd0f58f04b8c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b95d12dbeaf85ca458bb75f5bc5aea5749ea6b50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6d0c636c4a5aea8f90164d5d58261b67e5e16c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf2e21baef0713cf2f20d0e226846061ce96ebea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee00347333d15fd20fb697e95fc1dd3dce494fa6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f29d8ebe7a6723a3f7d07afba97e335132b8aa41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f32ec88812448284986ed457c5d356fafa1b2622" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7bba89df8ca4772c5f59c4b35ea859702c88d5e" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/4613692555a4ae58cc54cfa2b24d523d9aa3d0df" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5966ae76ffdb5dd67f1d8953b6560a20ef5ec8ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a031bd77d336368f698ca70d87bfda4de4e6441" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c06dec6db98160b6a231cecd7a9e1ff314f51e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/791cc6d56140eaf6beb06f129811a49d7e2fc6b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e4221e2794e661ea00b1401bfc62758a0f5fec9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81d59b021290fd97edd086fb89904d32fe6c914a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f787ad188243656b72bc98bdffe977dc57a26b1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91283c9b7833ef1ce224a07119dc5de54a43c3e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfd1d9702d76e6476e41fd8e64b5d6990930cee0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1d39880fbd67ebd9f72bce04d56a2fd8a06db98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee935a1c8b3acf9cc57a5d9975bda8c4575cff13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fad276bf4f18db5d5dd4dfbe44957e568c2b88ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/172a6d414795dfd5d753d0e5e0f9cbaf4648f5ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/8/18d79aac385437cf456af69dfda8aef59dfd0131" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/19865017b659e1c062336478fa781d5ffcb4d489" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/19dd8db83ae1e8a04b466e9513a9188a740a0d6d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/c/1c874883a510e92b8b36d41689c0fe13dd56c1ef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/23dd7868d0feddf495d4385e234c712fe1bb3b78" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/e/2e4215ac12df2c4190d76a49bfd30aeee6a821f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/8/3856ea79c508665fd408ace897c2ce32b43c8afa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/a/3a1e832546c989a6b5c00f1f8bb6a66a68629d7a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/429423b4654b070b46fe44f1940f79f23f74d3c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/42e649bcacbe5e368ec17d0c318ebf4011aaa1f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/6/4613692555a4ae58cc54cfa2b24d523d9aa3d0df" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/9/5966ae76ffdb5dd67f1d8953b6560a20ef5ec8ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/a/5a031bd77d336368f698ca70d87bfda4de4e6441" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/c/6c06dec6db98160b6a231cecd7a9e1ff314f51e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/9/791cc6d56140eaf6beb06f129811a49d7e2fc6b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/e/7e4221e2794e661ea00b1401bfc62758a0f5fec9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/1/81d59b021290fd97edd086fb89904d32fe6c914a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f787ad188243656b72bc98bdffe977dc57a26b1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/1/91283c9b7833ef1ce224a07119dc5de54a43c3e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/dfd1d9702d76e6476e41fd8e64b5d6990930cee0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/1/e1d39880fbd67ebd9f72bce04d56a2fd8a06db98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/ee935a1c8b3acf9cc57a5d9975bda8c4575cff13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/a/fad276bf4f18db5d5dd4dfbe44957e568c2b88ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/AuthRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/EmailAspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/KafkaMessagingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/UserInfoUserDetailsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/BookmanagementApplication$SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/JwtService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/UserInfoUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/authentication/JwtAuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/JacksonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/KafkaConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/entity/AuthRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/entity/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/entity/UserInfoUserDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/entitydto/BookDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/kafka/KafkaProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/repository/BookRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/repository/UserInfoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/utils/MemoryHealthIndicator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/utils/Scheduler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/jacoco.exec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.authentication/JwtAuthFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.authentication/JwtAuthFilter.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.authentication/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.authentication/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.config/JacksonConfig.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.config/JacksonConfig.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.config/KafkaConfig.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.config/KafkaConfig.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.config/SecurityConfig.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.config/SecurityConfig.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.config/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.config/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.controller/BookController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.controller/BookController.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.controller/UserController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.controller/UserController.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.controller/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.controller/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/AuthRequest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/AuthRequest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/Book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/Book.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/UserInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/UserInfo.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/UserInfoUserDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/UserInfoUserDetails.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entity/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entitydto/BookDTO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entitydto/BookDTO.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entitydto/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.entitydto/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.kafka/KafkaConsumer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.kafka/KafkaConsumer.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.kafka/KafkaProducer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.kafka/KafkaProducer.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.kafka/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.kafka/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/BookService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/BookService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/JwtService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/JwtService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/UserInfoUserDetailsService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/UserInfoUserDetailsService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/UserService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/UserService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.service/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.utils/EmailAspect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.utils/EmailAspect.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.utils/MemoryHealthIndicator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.utils/MemoryHealthIndicator.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.utils/Scheduler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.utils/Scheduler.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.utils/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement.utils/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement/BookmanagementApplication$SwaggerConfig.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement/BookmanagementApplication.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement/BookmanagementApplication.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/com.bookmanagement.bookmanagement/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/TEST-com.bookmanagement.bookmanagement.AuthRequestTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/TEST-com.bookmanagement.bookmanagement.BookTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/TEST-com.bookmanagement.bookmanagement.BookmanagementApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/TEST-com.bookmanagement.bookmanagement.EmailAspectTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/TEST-com.bookmanagement.bookmanagement.KafkaMessagingTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/TEST-com.bookmanagement.bookmanagement.UserControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/TEST-com.bookmanagement.bookmanagement.UserInfoUserDetailsTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/com.bookmanagement.bookmanagement.AuthRequestTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/com.bookmanagement.bookmanagement.BookTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/com.bookmanagement.bookmanagement.BookmanagementApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/com.bookmanagement.bookmanagement.EmailAspectTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/com.bookmanagement.bookmanagement.KafkaMessagingTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/com.bookmanagement.bookmanagement.UserControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/surefire-reports/com.bookmanagement.bookmanagement.UserInfoUserDetailsTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/AuthRequestTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/BookTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/EmailAspectTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/KafkaMessagingTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/UserControllerTest$TestConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/UserControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmanagement/target/test-classes/com/bookmanagement/bookmanagement/UserInfoUserDetailsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bookmanagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bookmanagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/172a6d414795dfd5d753d0e5e0f9cbaf4648f5ad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70de4258c57ca2d78ff5b59519fe7f6bed514f3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18d79aac385437cf456af69dfda8aef59dfd0131" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f18eca4094843c44d8d2bc1729ab684afe181c77" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19865017b659e1c062336478fa781d5ffcb4d489" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/1/01c15608ce34ab5bc415ff010ff2cf1adab8af8f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/7/0794dea29d59db488b65d5ba73fd1ad1705329ab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0b70d44376ccc33207769ab8dd47b1f871084f87" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/1/1175adc75a1401456e74b40a4cfadf355725c352" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1e43f23c66529ddedeb0f201a760de3df05d55fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/f/1f1763f358c257ea3515417352b82b0165647ad1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/23dd7868d0feddf495d4385e234c712fe1bb3b78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/3/53a032af92cdbd9d8b3e83a934285f9344484126" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/b/7b05af988df6bcdce86b3e7ae366120b20323f96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/e/7e4221e2794e661ea00b1401bfc62758a0f5fec9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa1f9f28139e0bfc13f44fec7437dd0f58f04b8c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/9/b95d12dbeaf85ca458bb75f5bc5aea5749ea6b50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/6/c6d0c636c4a5aea8f90164d5d58261b67e5e16c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/f/cf2e21baef0713cf2f20d0e226846061ce96ebea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/ee00347333d15fd20fb697e95fc1dd3dce494fa6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/2/f29d8ebe7a6723a3f7d07afba97e335132b8aa41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f32ec88812448284986ed457c5d356fafa1b2622" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/7/f7bba89df8ca4772c5f59c4b35ea859702c88d5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/0/00b592c9664fbce3e61da3944b68ccb8c9fb6cec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19dd8db83ae1e8a04b466e9513a9188a740a0d6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/37291cba041deb93e1abb06459be462ee173ab20" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c874883a510e92b8b36d41689c0fe13dd56c1ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23dd7868d0feddf495d4385e234c712fe1bb3b78" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/0/70de4258c57ca2d78ff5b59519fe7f6bed514f3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e4215ac12df2c4190d76a49bfd30aeee6a821f1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a811bd4c41b710767619b6cec89550abc2e6beea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3856ea79c508665fd408ace897c2ce32b43c8afa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/1/f18eca4094843c44d8d2bc1729ab684afe181c77" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1e832546c989a6b5c00f1f8bb6a66a68629d7a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Authentication/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/authentication/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entity/AuthRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Entity/UserInfoUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entity/UserInfoUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/EntityDto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/entitydto/BookDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Repository/UserInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/repository/UserInfoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/UserInfoUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/service/UserInfoUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/KafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/kafka/KafkaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/kafka/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/EmailAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/EmailAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/MemoryHealthIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/MemoryHealthIndicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/java/com/bookmanagement/bookmanagement/utils/Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/src/test/java/com/bookmanagement/bookmanagement/BookmanagementApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/bookmanagement.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/bookmanagement.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/bookmanagement.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/bookmanagement.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/429423b4654b070b46fe44f1940f79f23f74d3c0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/BookmanagementApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/utils/EmailAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/classes/com/bookmanagement/bookmanagement/utils/EmailAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanagement/target/sonar/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanagement/target/sonar/report-task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanagement/target/sonar/.sonar_lock" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42e649bcacbe5e368ec17d0c318ebf4011aaa1f8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +279,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merging master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/KumarDhr/Downloads/bookmanagement",
@@ -484,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706616924608</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit changes">
+      <option name="closed" value="true" />
+      <created>1706694491335</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706694491335</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
